@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  fittalksdemo.singlecontainer.api:
+    container_name: fittalksdemo.singlecontainer.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5050:80"
