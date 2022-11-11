@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  fittalksdemo.singlecontainer.api:
+    image: ${DOCKER_REGISTRY-}fittalksdemosinglecontainerapi
+    build:
+      context: .
+      dockerfile: FitTalksDemo.SingleContainer.API/Dockerfile
