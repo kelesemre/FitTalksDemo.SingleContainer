@@ -5,9 +5,11 @@ docker pull mongo
 docker run --name another-mongo -d mongo:latest
 
 
-docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build
-docker-compose -f docker-compose.yml -f docker-compose.override.yml down
+```docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d```
+
+```docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build```
+
+```docker-compose -f docker-compose.yml -f docker-compose.override.yml down```
 
 ## Dockerfile to Image:
 ```docker build -f FitTalksDemo.SingleContainer.API\Dockerfile --force-rm -t my-fit-api```
