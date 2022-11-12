@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitTalksDemo.SingleContainer.API", "FitTalksDemo.SingleContainer.API\FitTalksDemo.SingleContainer.API.csproj", "{64458784-45BB-4D58-81F2-1632C079EBA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitTalksDemo.SingleContainer.API", "FitTalksDemo.SingleContainer.API\FitTalksDemo.SingleContainer.API.csproj", "{64458784-45BB-4D58-81F2-1632C079EBA6}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DC3539CF-729A-4C1C-81F3-EE7C9A7A89FD}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{70DEABE6-1EFD-417A-A2D9-EAE64A5D55EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{64458784-45BB-4D58-81F2-1632C079EBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64458784-45BB-4D58-81F2-1632C079EBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64458784-45BB-4D58-81F2-1632C079EBA6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC3539CF-729A-4C1C-81F3-EE7C9A7A89FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC3539CF-729A-4C1C-81F3-EE7C9A7A89FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC3539CF-729A-4C1C-81F3-EE7C9A7A89FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC3539CF-729A-4C1C-81F3-EE7C9A7A89FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DEABE6-1EFD-417A-A2D9-EAE64A5D55EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DEABE6-1EFD-417A-A2D9-EAE64A5D55EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DEABE6-1EFD-417A-A2D9-EAE64A5D55EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DEABE6-1EFD-417A-A2D9-EAE64A5D55EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
