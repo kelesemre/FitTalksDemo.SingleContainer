@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>dc3539cf-729a-4c1c-81f3-ee7c9a7a89fd</ProjectGuid>
+    <ProjectGuid>70deabe6-1efd-417a-a2d9-eae64a5d55ef</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>fittalksdemo.singlecontainer.api</DockerServiceName>
